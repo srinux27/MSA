@@ -1,0 +1,9 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8003/eureka/
+  fetchRegistry: true
+server:
+  port: 8010
+  

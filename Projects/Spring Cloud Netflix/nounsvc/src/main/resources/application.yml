@@ -1,0 +1,9 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8003/eureka/
+server:
+  port: 8005
+words: some
+  
